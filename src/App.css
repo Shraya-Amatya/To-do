@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #F0F4F8;
+  margin: 0;
+}
+
+.container {
+ 
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #112D4E;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-todo-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 250px;
+  height: 40px;
+  background: #DBE2EF;
+  border: 1px solid rgba(177, 177, 177, 0.4);
+  border-radius: 5px 0 0 5px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.add-button {
+  width: 45px;
+  height: 40px;
+  background: #3F72AF;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background: #2C5282;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  background: #DBE2EF;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.check {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #7D7C7C;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.task {
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  color: #000000;
+  padding: 0 10px;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  color: #7B7B7B;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: #FF0000;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  color: #B00000;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  color: #3F72AF;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.edit-button:hover {
+  color: #2C5282;
+}
+
